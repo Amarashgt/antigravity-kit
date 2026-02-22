@@ -2,11 +2,9 @@
 
 > AI Agent templates with Skills, Agents, and Workflows
 
-<div  align="center">
-    <a href="https://unikorn.vn/p/antigravity-kit?ref=unikorn" target="_blank"><img src="https://unikorn.vn/api/widgets/badge/antigravity-kit?theme=dark" alt="Antigravity Kit - Nổi bật trên Unikorn.vn" style="width: 210px; height: 54px;" width="210" height="54" /></a>
-    <a href="https://unikorn.vn/p/antigravity-kit?ref=unikorn" target="_blank"><img src="https://unikorn.vn/api/widgets/badge/antigravity-kit/rank?theme=dark&type=daily" alt="Antigravity Kit - Hàng ngày" style="width: 250px; height: 64px;" width="250" height="64" /></a>
-    <a href="https://launch.j2team.dev/products/antigravity-kit" target="_blank"><img src="https://launch.j2team.dev/badge/antigravity-kit/dark" alt="Antigravity Kit on J2TEAM Launch" width="250" height="54" /></a>
-</div>
+[![Antigravity Kit - Nổi bật trên Unikorn.vn](https://unikorn.vn/api/widgets/badge/antigravity-kit?theme=dark)](https://unikorn.vn/p/antigravity-kit?ref=unikorn)
+[![Antigravity Kit - Hàng ngày](https://unikorn.vn/api/widgets/badge/antigravity-kit/rank?theme=dark&type=daily)](https://unikorn.vn/p/antigravity-kit?ref=unikorn)
+[![Antigravity Kit on J2TEAM Launch](https://launch.j2team.dev/badge/antigravity-kit/dark)](https://launch.j2team.dev/products/antigravity-kit)
 
 ## Quick Install
 
@@ -24,10 +22,12 @@ ag-kit init
 This installs the `.agent` folder containing all templates into your project.
 
 ### ⚠️ Important Note on `.gitignore`
+
 If you are using AI-powered editors like **Cursor** or **Windsurf**, adding the `.agent/` folder to your `.gitignore` may prevent the IDE from indexing the workflows. This results in slash commands (like `/plan`, `/debug`) not appearing in the chat suggestion dropdown.
 
 **Recommended Solution:**
 To keep the `.agent/` folder local (not tracked by Git) while maintaining AI functionality:
+
 1. Ensure `.agent/` is **NOT** in your project's `.gitignore`.
 2. Instead, add it to your local exclude file: `.git/info/exclude`
 
@@ -39,14 +39,13 @@ To keep the `.agent/` folder local (not tracked by Git) while maintaining AI fun
 | **Skills**    | 37    | Domain-specific knowledge modules                                  |
 | **Workflows** | 11    | Slash command procedures                                           |
 
-
 ## Usage
 
 ### Using Agents
 
 **No need to mention agents explicitly!** The system automatically detects and applies the right specialist(s):
 
-```
+```text
 You: "Add JWT authentication"
 AI: 🤖 Applying @security-auditor + @backend-specialist...
 
@@ -93,7 +92,7 @@ Invoke workflows with slash commands:
 
 Example:
 
-```
+```text
 /brainstorm authentication system
 /create landing page with hero section
 /debug why login fails
@@ -128,17 +127,11 @@ ag-kit init --dry-run      # Preview actions without executing
 
 ## Buy me coffee
 
-<p align="center">
-  <a href="https://buymeacoffee.com/vudovn">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
-  </a>
-</p>
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/vudovn)
 
-<p align="center"> - or - </p>
+- or -
 
-<p align="center">
-  <img src="https://img.vietqr.io/image/mbbank-0779440918-compact.jpg" alt="Buy me coffee" width="200" />
-</p>
+![Buy me coffee](https://img.vietqr.io/image/mbbank-0779440918-compact.jpg)
 
 ## License
 
